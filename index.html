@@ -23,18 +23,21 @@
 					<li class="nav-item active">
 					  <a class="nav-link" href="#">Accueil</a>
 					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						 Visiter le Musée
+						</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+						 <a class="dropdown-item" href="collections.html">Les collections</a>
+						 <a class="dropdown-item" href="expositions.html">Les expositions</a>
+						 <a class="dropdown-item" href="bibliothèque.html">La bibliothèque</a>
+						</div>
+					 </li>
+					 <li class="nav-item">
+						<a class="nav-link" href="evenements.html">Evènements</a>
+					 </li>
 					<li class="nav-item">
 					  <a class="nav-link" href="a-propos.html">A propos</a>
-					</li>
-					<li class="nav-item dropdown">
-					  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Visiter le Musée
-					  </a>
-					  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="collections.html">Les collections</a>
-						<a class="dropdown-item" href="expositions.html">Les expositions</a>
-						<a class="dropdown-item" href="bibliothèque.html">La bibliothèque</a>
-					  </div>
 					</li>
 					<li class="nav-item">
 					  <a class="nav-link" tabindex="-1" href="contact.html">Contact</a>
@@ -179,7 +182,7 @@
 								Alain Pérus nous offre des instants de vie d’une rare intensité, toutes générations confondues.
 								Il parvient à accéder à l’intimité des sujets avec un naturel saisissant.»
 								</em> Daniel Cario (Ecrivain)
-								<span>Entrée gratuite </span>	
+								<strong>Entrée gratuite</strong>	
 							</div>
 						</div>
 					</div>
@@ -236,11 +239,11 @@
 				<img src="images/Affiches/Noëlau musée.jpg" class="img-fluid" alt="Noel au musée">
 			</section>
 			<section class="col-12 col-md-12 col-lg-4 border border-2 d-block
-		 text-center mb-3 pt-5 mt-3" id="workingDays">
+		 text-center mb-3 pt-3 mt-3" id="workingDays">
 				
 					<h1 class="text-danger" >Ouvert toute l'année pour les groupes sur réservation</h1>
 						<br>
-							<p class="h3">Ouvert du 8 juillet au 29 août <br>et 
+							<p class="h2">Ouvert du 8 juillet au 29 août <br>et 
 								les 3 premiers week-ends de septembre
 								du jeudi au dimanche
 							</p>
@@ -250,9 +253,7 @@
 								<p class="h3">merci de contacter le bureau d'informations de</p><br>
 								<p class="h3">LA ROCHE BERNARD au 02 97 41 11 32</p>
 							</p>
-							<div class="img-content mt-5 align-content-center ">
-								<a href="https://www.damgan-larochebernard-tourisme.com/"><img src="images/logo_tourisme_communes.png"  alt="logo_tourisme_communes"></a>
-							</div>		
+								
 			</section>
 			<aside class="col-12 col-md-12 col-lg-4 mb-4 p">
 				<div class="card mb-2">
@@ -302,15 +303,15 @@
 		<script src="js/bootstrap.bundle.js" type="text/javascript"></script>
 		<script src="js/jquery-3.6.0.slim.js" type="text/javascript"></script>
 	</body>
-	<footer class="row row-cols-md-6 row-cols-2 bg bg-dark justify-content-between">
-		<div class="col-12 col-md-6 col-lg-3 navbar navbar-right ">
+	<footer class="row row-cols-md-6 row-cols-lg-3 bg bg-dark justify-content-between">
+		<div class="col-12 col-md-6 col-lg-2 navbar navbar-right ">
 		
 				<a href="#" class="nav-item nav-link text-white ">Appel à témoignages</a>
 				<a href="#" class="nav-item nav-link text-white ">Initiatives locales</a>
 				<a href="#" class="nav-item nav-link text-white ">Presse et TV</a>
 			
 		</div>
-		<div class="col-12 col-md-3 col-lg-4 text-white text-center pt-5 mt-5 ">
+		<div class="col-12 col-md-3 col-lg-4 text-white text-center pt-5 mt-3 ">
 			<h1 class="h4" >Association des Amis du Musée de la Vilaine Maritime</h1>
 
 				<p>
@@ -324,14 +325,18 @@
 
 
 		</div>
+		<!--Logo section-->
 		<div class="col-12 col-md-6 col-lg-4">
 			<div class="row p-0">
 				<a href="https://www.laroche-bernard.com/"><img src="images/logo-larochebernard.jpg" class="img-fluid pt-1" alt="logo_roche-bernard"></a>
 			</div>
 				<div class="row d-lg-inline-flex">
-						
-							<a href="https://www.arc-sud-bretagne.fr/"><img src="images/arc-su-bretagne_logo.png" class="img pb-2" alt="logo_arc-sud-bretagne"></a>
-					
+					<div class="col col-md-8 col-lg-8">
+						<a href="https://www.arc-sud-bretagne.fr/"><img src="images/arc-su-bretagne_logo.png" class="img-fluid pb-2" alt="logo_arc-sud-bretagne"></a>
+					</div>
+					<div class="col col-md-4 col-lg-4">
+						<a href="https://www.damgan-larochebernard-tourisme.com/"><img src="images/logo_tourisme_communes.png" class="img-fluid pt-5"  alt="logo_tourisme_communes"></a>
+					</div>			
 				</div>			
 		</div>
 	</footer>
