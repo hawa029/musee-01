@@ -54,17 +54,130 @@
 				</div>
 			  </nav>
 		</header>
-		<section class="container" id="event-ad">
+		<main class="container" id="event-ad">
 			<div class="jumbotron jumbotron-fluid p-5 mt-5 bg bg-danger bg-opacity-25 ">
 				<div class="row">
-				  <h1 class="display-4 text-bold ">Noël au Musée !</h1>
+				  <h1 class="display-4 text ">Noël au Musée !</h1>
 				  <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
 				</div>
 			 </div>
-			 <div class="row row-cols-md-2 row-cols-lg-2 pt-5 mb-5">
+			 <section class="row row-cols-md-2 row-cols-lg-2 pt-5 mb-5">
 				 <img src="images/Affiches/Noëlau musée.jpg" class="img-responsive" alt="Noël¨au musée">
-			 </div>
-		</section>
+				 <section class="col-12 col-md-6">
+					<form action="" class="bg bg-danger bg-opacity-25 ">
+						 <h1 class="h3">Formulaire de contact</h1>
+						 <fieldset>
+							  <legend>Informations personnelles</legend>
+							  <!--First Name-->
+							  <div class="form-group">
+									<label for="fName">Votre prénom</label>
+									<input type="text" name="fName" id="fName" class="form-control" placeholder="Votre prénom" />
+							  </div>
+							  <!--End First Name-->
+							  <!--Last Name-->
+							  <div class="form-group">
+									<label for="lName">Votre nom de famille</label>
+									<input type="text" name="lName" id="lName" class="form-control" placeholder="Votre nom de famille" />
+							  </div>
+							  <!--End Last Name-->
+							  <!--Email-->
+							  <div class="form-group">
+									<label for="email">Votre adresse email</label>
+									<input type="email" name="email" id="email" class="form-control" placeholder="Votre adresse email" />
+									<small class="form-text text-muted">Nous ne partagerons pas votre adresse email avec des tiers.</small>
+							  </div>
+							  <!--End Email-->
+							  <div class="form-group">
+								<label for="inputAddress">Adresse</label>
+								<input type="text" class="form-control" id="inputAddress" placeholder="2 rue place de la Mairie">
+							 </div>
+							 <div class="form-group">
+								<label for="inputAddress2">Complément d'adresse</label>
+								<input type="text" class="form-control" id="inputAddress2" placeholder="Complément d'adresse">
+							 </div>
+							 <div class="form-row">
+								<div class="form-group col-md-6">
+								  <label for="inputCity">Ville</label>
+								  <input type="text" class="form-control" id="inputCity">
+								</div>
+								<div class="form-group col-md-4">
+								  <label for="inputState">Région</label>
+								  <select id="inputState" class="form-control">
+									 <option selected>Choisissez...</option>
+									 <option>...</option>
+								  </select>
+								</div>
+								<div class="form-group col-md-2">
+								  <label for="inputZip">code postale</label>
+								  <input type="text" class="form-control" id="inputZip">
+								</div>
+							 </div>
+							  <!--Country-->
+							  <div class="form-group">
+									<label for="country">Votre choix de détente</label>
+									<select name="country" id="country" class="form-control">
+										 <option value="0">--Choisissez un jeu--</option>
+										 <option value="BE">Monopoly</option>
+										 <option value="CA">Scrabble</option>
+										 <option value="FR">UNO</option>
+										 <option value="CH">Carte</option>
+									</select>
+							  </div>
+							  <!--End Country-->
+						 </fieldset>
+						 <fieldset>
+							  <legend>Vos préférences</legend>
+							  <!--Newsletter-->
+							  <div class="form-group">
+									<p class="h6">Venez-vous seul ou en famille ?</p>
+									<div class="form-check form-check-inline">
+										 <label class="form-check-label">
+											  <input type="radio" name="newsletter" value="true" class="form-check-input">Seul(e)
+										 </label>
+									</div>
+									<div class="form-check form-check-inline">
+										 <label class="form-check-label">
+											  <input type="radio" name="newsletter" value="false" checked class="form-check-input">En famille
+										 </label>
+									</div>
+							  </div>
+							  <!--End Newsletter-->
+							  <!--How-->
+							  <div class="form-group">
+									<p class="h6">Si vous venez en famille, merci d'indiquer le nombre de personnes :</p>
+									
+									<div class="form-check form-check-inline">
+										 <label class="form-check-label">
+											  <input type="checkbox" name="how" value="3" class="form-check-input">3
+										 </label>
+									</div>
+									<div class="form-check form-check-inline">
+										 <label class="form-check-label">
+											  <input type="checkbox" name="how" value="4" class="form-check-input">4
+										 </label>
+									</div>
+									<div class="form-check form-check-inline">
+										 <label class="form-check-label">
+											  <input type="checkbox" name="how" value="5" class="form-check-input">5
+										 </label>
+									</div>
+									<div class="form-check form-check-inline">
+										 <label class="form-check-label">
+											  <input type="checkbox" name="how" value="6+" class="form-check-input">6 et plus.
+										 </label>
+									</div>
+							  </div>
+							  <!--End How-->
+						 </fieldset>
+						 <div class="p-5 float-end" ><!--Submit-->
+							<button type="submit" class="btn btn-danger">Envoyer !</button>
+						 </div>
+						 
+					</form>
+			  </section><!--End Seconf column-->
+			 </section>
+		</main>
+		
 
 
 
