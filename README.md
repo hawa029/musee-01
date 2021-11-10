@@ -11,8 +11,10 @@ Bien qu’il soit accessible, le site en lui-même manque d’attractivité. Une
 CONTENU 
 
 1 Dossier Images
-1 Dossier avec les feuilles de styles
-1 Dossier Affiches
+    * 1 sous-dossier Affiches
+1 Dossier CSS avec les feuilles de styles css
+1 Dossier JS avec les scripts javascript
+
 
 Les pages du site
 
@@ -20,5 +22,6 @@ la plupart des pages sont inactives à l'exception de :
 - index.html
 - bibliothèque.html
 - evenements.html
+- contact.html
 
 
