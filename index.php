@@ -143,7 +143,7 @@
 						</h2>
 					</div>
 					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion1">
-						<img src="images/outils.jpg" class="card-img" alt="outils">
+						<img src="Images/outils.jpg" class="card-img" alt="outils">
 					</div>
 				</div>
 			</div><!--End of the First One-->
@@ -181,7 +181,7 @@
 						</h2>
 					</div>
 					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion2">
-						<img src="images/sabottier.jpg" class="card-img" alt="sabots">
+						<img src="Images/sabottier.jpg" class="card-img" alt="sabots">
 					</div>
 				</div>
 			</div><!--End of the second one-->
@@ -217,14 +217,14 @@
 						</h2>
 					</div>
 					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion3">
-						<img src="images/tenues.jpg" class="card-img" alt="tenues">
+						<img src="Images/tenues.jpg" class="card-img" alt="tenues">
 					</div>
 				</div>
 			</div><!--End of the third accordion-->
 		</section>
 		<main class="row" id="center-content"><!--Begin of the center section-->
 			<section class="col-12 col-md-12 col-lg-4 p-3">
-				<img src="images/Affiches/Noëlau musée.jpg" class="img-fluid" alt="Noel au musée">
+				<img src="Images/Affiches/Noëlau musée.jpg" class="img-fluid" alt="Noel au musée">
 			</section>
 			<section class="col-12 col-md-12 col-lg-4 border border-2 d-block
 		 text-center mb-3 pt-3 mt-3" id="workingDays">
@@ -291,14 +291,14 @@
 		<!--Logo section-->
 		<div class="col-12 col-md-5 col-lg-4">
 			<div class="row p-0">
-				<a href="https://www.laroche-bernard.com/"><img src="images/logo-larochebernard.jpg" class="img-fluid pt-1" alt="logo_roche-bernard"></a>
+				<a href="https://www.laroche-bernard.com/"><img src="Images/logo-larochebernard.jpg" class="img-fluid pt-1" alt="logo_roche-bernard"></a>
 			</div>
 				<div class="row d-lg-inline-flex">
 					<div class="col col-md-8 col-lg-8">
-						<a href="https://www.arc-sud-bretagne.fr/"><img src="images/arc-su-bretagne_logo.png" class="img-fluid pb-2" alt="logo_arc-sud-bretagne"></a>
+						<a href="https://www.arc-sud-bretagne.fr/"><img src="Images/arc-su-bretagne_logo.png" class="img-fluid pb-2" alt="logo_arc-sud-bretagne"></a>
 					</div>
 					<div class="col col-md-4 col-lg-4">
-						<a href="https://www.damgan-larochebernard-tourisme.com/"><img src="images/logo_tourisme_communes.png" class="img-fluid pt-5"  alt="logo_tourisme_communes"></a>
+						<a href="https://www.damgan-larochebernard-tourisme.com/"><img src="Images/logo_tourisme_communes.png" class="img-fluid pt-5"  alt="logo_tourisme_communes"></a>
 					</div>			
 				</div>			
 		</div>
