@@ -1,27 +1,34 @@
-PROJET DE REFONTE DU SITE WEB DE 
 
-L'Association des Amis du Musée de la Vilaine Maritime
+# MUSEE DE LA VILAINE MARITIME
 
-CONTEXTE DU PROJET
+I've made this website as an exercise. However, it' a real project. Some of my friends try to pull up a museum; In a little city of Bretain, in France. 
+They need help to carry out big projects. 
 
-L’Association des Amis du Musée de la Vilaine Maritime a depuis longtemps émis le souhait de procéder à une refonte de son site web. Ce site a été créé avec la plateforme Jimdo. 
+# Work Development
 
-Bien qu’il soit accessible, le site en lui-même manque d’attractivité. Une nouvelle mise en forme structurelle s’impose. J’ai été associé pendant un certain temps au projet de refonte. Plusieurs réunions ont eu lieu pour élaborer une nouvelle charte éditoriale et une charte graphique. 
+Even we need to creat just two pages for this exercise, I choose to create others. The home page intagrate some contents of Bootstrap
+* Carousel
+* Card
+* accordion
+* navbar
 
-CONTENU 
+# Framework and software
 
-1 Dossier Images
-    * 1 sous-dossier Affiches
-1 Dossier CSS avec les feuilles de styles css
-1 Dossier JS avec les scripts javascript
+* Word for all text descriptions
+* Adobe XD for design and pattern
+* Bootstrap as required framework
+
+# Heroku App
+
+the website is also available on heroku 
+https://musee-01.herokuapp.com/
+
+# Suggestions and requests
+
+Feel free to make suggestions or ask questions. This repository is totally open source 
+jpaulcamillo@outlook.fr
 
 
-Les pages du site
 
-la plupart des pages sont inactives à l'exception de :
-- index.html
-- bibliothèque.html
-- evenements.html
-- contact.html
 
 
